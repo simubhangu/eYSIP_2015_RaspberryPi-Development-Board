@@ -1,7 +1,0 @@
-\contentsline {section}{\numberline {1}Introduction}{3}
-\contentsline {section}{\numberline {2}Objectives of an OS}{3}
-\contentsline {section}{\numberline {3}Functions of an OS}{4}
-\contentsline {section}{\numberline {4}Types of Operating Systems}{6}
-\contentsline {section}{\numberline {5}Examples of Operating System}{8}
-\contentsline {section}{\numberline {6}Raspbian Operating System}{12}
-\contentsline {section}{\numberline {7}References}{13}
