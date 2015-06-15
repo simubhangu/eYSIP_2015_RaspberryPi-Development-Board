@@ -1,0 +1,222 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.24)  15 JUN 2015 17:14
+entering extended mode
+**T2.tex
+("F:\Internship\Task 2\T2.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("F:\Internship\Task 2\T2.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen106
+\MPnumerator=\count92
+\makeMPintoPDFobject=\count93
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+("F:\Internship\Task 2\T2.toc"
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 7.
+
+Overfull \hbox (23.94897pt too wide) in paragraph at lines 8--8
+ [][] []\OT1/cmr/m/n/10.95 Network set-tings con-fig-u-ra-tion us-ing DHCP Serv
+er(wireless 
+ []
+
+)
+\tf@toc=\write3
+ [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
+ [3]
+<ssh.png, id=17, 356.33125pt x 142.5325pt>
+File: ssh.png Graphic file (type png)
+ <use ssh.png>
+Package pdftex.def Info: ssh.png used on input line 41.
+(pdftex.def)             Requested size: 285.06537pt x 114.02614pt.
+ [4 <F:/Internship/Task 2/ssh.png>] [5] <r1.jpg, id=25, 255.95625pt x 197.73875
+pt>
+File: r1.jpg Graphic file (type jpg)
+ <use r1.jpg>
+Package pdftex.def Info: r1.jpg used on input line 85.
+(pdftex.def)             Requested size: 284.52756pt x 219.82451pt.
+
+[6 <F:/Internship/Task 2/r1.jpg>] <lxt.jpg, id=30, 259.97125pt x 195.73125pt>
+File: lxt.jpg Graphic file (type jpg)
+
+<use lxt.jpg>
+Package pdftex.def Info: lxt.jpg used on input line 92.
+(pdftex.def)             Requested size: 284.52756pt x 214.22089pt.
+ <Lsusb.PNG, id=31, 487.8225pt x 158.09062pt>
+File: Lsusb.PNG Graphic file (type png)
+ <use Lsusb.PNG>
+Package pdftex.def Info: Lsusb.PNG used on input line 98.
+(pdftex.def)             Requested size: 292.69576pt x 94.85509pt.
+
+[7 <F:/Internship/Task 2/lxt.jpg> <F:/Internship/Task 2/Lsusb.PNG>]
+<iwifi.png, id=38, 508.14844pt x 319.1925pt>
+File: iwifi.png Graphic file (type png)
+ <use iwifi.png>
+Package pdftex.def Info: iwifi.png used on input line 104.
+(pdftex.def)             Requested size: 304.8914pt x 191.51697pt.
+
+<wificon.png, id=39, 508.14844pt x 319.1925pt>
+File: wificon.png Graphic file (type png)
+ <use wificon.png>
+Package pdftex.def Info: wificon.png used on input line 109.
+(pdftex.def)             Requested size: 304.8914pt x 191.51697pt.
+ [8 <F:/Internship/Task 2/iwifi.png> <F:/Internship/Task 2/wificon.png>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [9]
+<M1.PNG, id=47, 1026.08344pt x 515.67656pt>
+File: M1.PNG Graphic file (type png)
+ <use M1.PNG>
+Package pdftex.def Info: M1.PNG used on input line 138.
+(pdftex.def)             Requested size: 307.82741pt x 154.70415pt.
+
+<M2.PNG, id=48, 586.44093pt x 464.4853pt>
+File: M2.PNG Graphic file (type png)
+ <use M2.PNG>
+Package pdftex.def Info: M2.PNG used on input line 143.
+(pdftex.def)             Requested size: 293.21974pt x 232.24208pt.
+ [10 <F:/Internship/Task 2/M1.PNG> <F:/Internship/Task 2/M2.PNG>]
+<M3.PNG, id=55, 585.68813pt x 462.22687pt>
+File: M3.PNG Graphic file (type png)
+ <use M3.PNG>
+Package pdftex.def Info: M3.PNG used on input line 149.
+(pdftex.def)             Requested size: 292.84334pt x 231.11287pt.
+
+<M4.PNG, id=56, 583.42969pt x 462.22687pt>
+File: M4.PNG Graphic file (type png)
+ <use M4.PNG>
+Package pdftex.def Info: M4.PNG used on input line 156.
+(pdftex.def)             Requested size: 291.71413pt x 231.11287pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11 <F:/Internship/Task 2/M3.PNG>] <M5.PNG, id=61, 1026.83624pt x 547.2947pt>
+File: M5.PNG Graphic file (type png)
+
+<use M5.PNG>
+Package pdftex.def Info: M5.PNG used on input line 162.
+(pdftex.def)             Requested size: 308.05325pt x 164.18967pt.
+ [12 <F:/Internship/Task 2/M4.PNG> <F:/Internship/Task 2/M5.PNG>]
+[13] ("F:\Internship\Task 2\T2.aux") ) 
+Here is how much of TeX's memory you used:
+ 1287 strings out of 493921
+ 16569 string characters out of 3147276
+ 67134 words of memory out of 3000000
+ 4597 multiletter control sequences out of 15000+200000
+ 9325 words of font info for 33 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,7n,19p,520b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on T2.pdf (13 pages, 457448 bytes).
+PDF statistics:
+ 97 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Objective}{3}
+\contentsline {section}{\numberline {2}Prerequisites}{3}
+\contentsline {section}{\numberline {3}Hardware Requirement}{3}
+\contentsline {section}{\numberline {4}Software Requirement}{3}
+\contentsline {section}{\numberline {5}Theory and Description}{4}
+\contentsline {section}{\numberline {6}Experiments}{6}
+\contentsline {subsection}{\numberline {6.1}Establishing a network connection}{6}
+\contentsline {subsubsection}{\numberline {6.1.1}Network settings configuration using DHCP Server(wireless settings)}{6}
+\contentsline {subsubsection}{\numberline {6.1.2}Network settings using static IP method}{9}
+\contentsline {subsection}{\numberline {6.2}Establishing an SSH connection}{10}
+\contentsline {section}{\numberline {7}References}{13}
