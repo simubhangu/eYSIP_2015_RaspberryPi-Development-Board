@@ -1,6 +1,7 @@
 \documentclass[11pt,a4paper]{article}
 
 \usepackage{graphicx}
+\usepackage{listings}
 \title{Interfacing ADC with R-PI}
 \author{e-Yantra Team}
 \date{\today}
@@ -12,7 +13,7 @@
 	\newpage
 	
 \section{Objective}
-The objective is to Interface the ADC MCP3008 to Raspberry Pi with a Sharp IR Sensor as Raspberry Pi has no built in analogue inputs which means it is a bit of a pain to use many of the available sensors.
+The objective is to Interface the ADC MCP3008 to Raspberry Pi with a Sharp IR Sensor as Raspberry Pi has no built in analogue inputs.Then the RPi is interfaced with 2 MC3008 ADC's where Sharp IR sensor and White line sensor are connected.
 	\section{Prerequisites}
 	One should have:
 	\begin{itemize}
@@ -106,77 +107,12 @@ SPI uses 4 separate connections to communicate with the target device. These con
 		\centering
         \caption{Circuit Schematic}
         \end{figure}
-\newpage
-\subsection{Code}
 
-\begin{verbatim}
-import os
-import spidev
-import time
-
-# Open SPI bus[4]
-spi = spidev.SpiDev()#  to create spi object
-spi.open(0,0)#Clock polarity,Clock Phase
-
-# Function to read SPI data from MCP3008 chip
-# Channel must be an integer 0-7
-def ReadChannel(channel):
-#Performs SPI Transaction and CS will be held active
-  adc = spi.xfer2([1,(8+channel)<<4,0])
-  data = ((adc[1]&3) << 8) + adc[2]
-  return data
-
-# Function to convert data to voltage level,
-# rounded to specified number of decimal places.
-def ConvertVolts(data,places):
-  volts = (data * 3.3) / float(1023)
-  volts = round(volts,places)
-  return volts
-
-
-# This Function calculates the actual distance in millimeters(mm) from the input
-# analog value of Sharp Sensor.
-def Sharp_GP2D12_estimation(adc_reading):
-
+	\newpage 
+	\textbf{Code}
+	\vspace{0.3cm}
 	
-		  distance =(10.00*(2799.6*(1.00/(pow(adc_reading,1.1546)))))
-		  distanceInt = distance
-		  if distanceInt>800:
-	
-		  	distanceInt=800
-	
-	      return distanceInt
-
-# Define sensor channels
-sharp_channel =0
-
-
-# Define delay between readings
-delay =0.5
-
-try:
-      while True:
-
-			# Read the sharp sensor data
-			sharp_level = ReadChannel(sharp_channel)
-			sharp_volts = ConvertVolts(sharp_level,3)
-			value = Sharp_GP2D12_estimation(sharp_level)
-
-
-			# Print out results
-			print "--------------------------------------------"
-			print("sharp: Digital {} (Analog {}V)".format(sharp_level,sharp_volts))
-			print("sharp:  (Distance {} cm)".format(value))
-
-			# Wait before repeating loop
-			time.sleep(delay)
-
-
-except KeyboardInterrupt:
-       pass
-
-\end{verbatim}
-
+	\lstinputlisting[language=Python]{adc.py}
 
 \newpage
 \subsection{PCB Designing}
@@ -201,90 +137,12 @@ except KeyboardInterrupt:
 		\centering
         \caption{Circuit Schematic}
         \end{figure}
-\newpage
-\subsection{Code}
 
-\begin{verbatim}
-import os
-import spidev # module to control spi devices
-import time
-import RPi .GPIO as GPIO # module to control Pi GPIO channels
-
-
-# Open SPI bus
-spi = spidev.SpiDev()#  to create spi object
-spi.open(0,0)#Clock polarity,Clock Phase
-
-# Function to read SPI data from MCP3008 chip
-# Channel must be an integer 0-7
-def ReadChannel(channel):
-#Performs SPI Transaction and CS will be held active
-  adc = spi.xfer2([1,(8+channel)<<4,0])
-  data = ((adc[1]&3) << 8)
-  return data
-
-# Function to convert data to voltage level,
-# rounded to specified number of decimal places.
-def ConvertVolts(data,places):
-  volts = (data * 3.3) / float(1023)
-  volts = round(volts,places)
-  return volts
-
-
-# This Function calculates the actual distance in millimeters(mm) from the input
-# analog value of Sharp Sensor.
-def Sharp_GP2D12_estimation(adc_reading):
-
+	\newpage 
+	\textbf{Code}
+	\vspace{0.3cm}
 	
-		  distance =(10.00*(2799.6*(1.00/(pow(adc_reading,1.1546)))))
-		  distanceInt = distance
-		  if distanceInt>800:
-	
-		  	distanceInt=800
-	
-	          return distanceInt
-# Define sensor channels
-sharp_channel =0
-white_channel =1
-
-# Define delay between readings
-delay =0.5
-
-try:
-      while True:
-            GPIO.setmode(GPIO.BOARD)
-            # set up GPIO output channel
-            GPIO.setup(24, GPIO.OUT)
-            GPIO.setup(26, GPIO.OUT)
-
-            GPIO.output(24,GPIO.LOW)
-            GPIO.output(26,GPIO.HIGH)
-
-			# Read the sharp sensor data
-			sharp_level = ReadChannel(sharp_channel)
-			sharp_volts = ConvertVolts(sharp_level,3)
-			value = Sharp_GP2D12_estimation(sharp_level)
-
-            GPIO.output(26,GPIO.LOW)
-            GPIO.output(24,GPIO.HIGH)
-
-			white_level=ReadChannel(white_channel)
-			white_volts = ConvertVolts(white_level,3)
-			
-            # Print out results
-			print "--------------------------------------------"
-			print("sharp: Digital {} (Analog {}V)".format(sharp_level,sharp_volts))
-			print("sharp:  (Distance {} cm)".format(value))
-
-			print "--------------------------------------------"
-			print("white: Digital {} (Analog {}V)".format(white_level,white_volts))
-			
-            # Wait before repeating loop
-			time.sleep(delay)
-        except KeyboardInterrupt:
-       pass
-\end{verbatim}
-
+	\lstinputlisting[language=Python]{adc2.py}
 
 \newpage
 \subsection{PCB Designing}

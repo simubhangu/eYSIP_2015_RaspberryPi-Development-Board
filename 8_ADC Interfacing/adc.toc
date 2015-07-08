@@ -8,11 +8,9 @@
 \contentsline {section}{\numberline {6}Experiment}{6}
 \contentsline {subsection}{\numberline {6.1}Interfacing an ADC with RPi using a Sharp IR Sensor}{6}
 \contentsline {subsection}{\numberline {6.2}Circuit Schematic}{7}
-\contentsline {subsection}{\numberline {6.3}Code}{8}
-\contentsline {subsection}{\numberline {6.4}PCB Designing}{10}
+\contentsline {subsection}{\numberline {6.3}PCB Designing}{10}
 \contentsline {section}{\numberline {7}Exercise}{11}
 \contentsline {subsection}{\numberline {7.1}Interfacing 2 ADC's with RPi using a Sharp IR and White line sensor}{11}
 \contentsline {subsection}{\numberline {7.2}Circuit Schematic}{11}
-\contentsline {subsection}{\numberline {7.3}Code}{12}
-\contentsline {subsection}{\numberline {7.4}PCB Designing}{14}
+\contentsline {subsection}{\numberline {7.3}PCB Designing}{14}
 \contentsline {section}{\numberline {8}References}{15}
