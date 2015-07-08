@@ -1,0 +1,239 @@
+# EESchema Netlist Version 1.1 created  6/29/2015 8:14:14 PM
+(
+ ( /558FE900 SIL-5 BATT1 SIL5
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 ? )
+  ( 4 N-000018 )
+  ( 5 N-000018 )
+ )
+ ( /558FEB09 SIL-5 BATT2 SIL5
+  ( 1 GND )
+  ( 2 GND )
+  ( 3 GND )
+  ( 4 GND )
+  ( 5 GND )
+ )
+ ( /558FA989 CP4 C1 10u
+  ( 1 N-000024 )
+  ( 2 GND )
+ )
+ ( /558FA7D8 CP4 C2 470u
+  ( 1 N-000021 )
+  ( 2 GND )
+ )
+ ( /558FA8E4 CP4 C3 0.33u
+  ( 1 N-000024 )
+  ( 2 GND )
+ )
+ ( /558FA8F1 CP4 C4 0.1u
+  ( 1 N-000007 )
+  ( 2 GND )
+ )
+ ( /558FA993 CP4 C6 10u
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /558F41AB CP4 C7 .1u
+  ( 1 N-000006 )
+  ( 2 GND )
+ )
+ ( /558F18F3 LED-3MM D1 LED
+  ( 1 N-000018 )
+  ( 2 N-000020 )
+ )
+ ( /558F18FE LED-3MM D2 LED
+  ( 1 N-000018 )
+  ( 2 N-000019 )
+ )
+ ( /558FA785 D4 D3 DIODE
+  ( 1 N-000022 )
+  ( 2 N-000021 )
+ )
+ ( /558FA86C D4 D4 DIODE
+  ( 1 N-000022 )
+  ( 2 N-000024 )
+ )
+ ( /559026E6 JACK_ALIM P1 CONN_2
+  ( 1 GND )
+  ( 2 N-000005 )
+ )
+ ( /558F418F LM78XX Q1 LT1585CM
+  ( 1 N-000023 )
+  ( 2 N-000006 )
+  ( 3 N-000024 )
+ )
+ ( /558F1998 R4 R1 56K
+  ( 1 N-000018 )
+  ( 2 N-000008 )
+ )
+ ( /5591A946 R4 R2 4.7K
+  ( 1 N-000020 )
+  ( 2 N-000018 )
+ )
+ ( /558F1961 R4 R3 18K
+  ( 1 N-000017 )
+  ( 2 GND )
+ )
+ ( /558F198C R4 R4 4.7K
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /558FAA1F R4 R5 720
+  ( 1 N-000006 )
+  ( 2 N-000023 )
+ )
+ ( /558FAA43 R4 R6 1.1K
+  ( 1 N-000023 )
+  ( 2 GND )
+ )
+ ( /55908FF6 RV2 RV1 10k
+  ( 1 N-000008 )
+  ( 2 N-000009 )
+  ( 3 GND )
+ )
+ ( /558F4709 swdip3 SW1 SWITCH_INV
+  ( 1 N-000018 )
+  ( 2 N-000022 )
+  ( 3 N-000005 )
+ )
+ ( /558F40DD LM78XX U1 7805
+  ( GND GND )
+  ( VI N-000024 )
+  ( VO N-000007 )
+ )
+ ( /558FEA55 SIL-3 U2 SIL3
+  ( 1 N-000021 )
+  ( 2 N-000021 )
+  ( 3 N-000021 )
+ )
+ ( /558FEA61 SIL-3 U3 SIL3
+  ( 1 N-000007 )
+  ( 2 N-000007 )
+  ( 3 N-000007 )
+ )
+ ( /558FEA67 SIL-3 U4 SIL3
+  ( 1 N-000006 )
+  ( 2 N-000006 )
+  ( 3 N-000006 )
+ )
+ ( /558F18BD DIP-18__300_ELL U5 LM3914
+  ( 1 N-000020 )
+  ( 2 GND )
+  ( 3 N-000018 )
+  ( 4 N-000017 )
+  ( 5 N-000009 )
+  ( 6 N-000010 )
+  ( 7 N-000010 )
+  ( 8 GND )
+  ( 9 ? )
+  ( 10 N-000019 )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

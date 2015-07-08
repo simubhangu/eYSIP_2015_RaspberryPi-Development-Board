@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.24)  7 JUL 2015 07:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.5.24)  8 JUL 2015 12:55
 entering extended mode
 **T7.tex
-("F:\Internship\Task 7\T7.tex"
+
+("F:\Internship\eYSIP_2015_RaspberryPi-Development-Board\7_Interfacing servo mo
+tor\T7.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -91,7 +93,8 @@ File: listings.cfg 2014/09/06 1.5e listings configuration
 ))
 Package: listings 2014/09/06 1.5e (Carsten Heinz)
 
-("F:\Internship\Task 7\T7.aux")
+("F:\Internship\eYSIP_2015_RaspberryPi-Development-Board\7_Interfacing servo mo
+tor\T7.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
@@ -104,8 +107,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
-
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count96
 \scratchdimen=\dimen109
@@ -129,36 +131,42 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("F:\Internship\Task 7\T7.toc"
+("F:\Internship\eYSIP_2015_RaspberryPi-Development-Board\7_Interfacing servo mo
+tor\T7.toc"
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 8.
 )
 \tf@toc=\write3
  [2]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
- [3]
-<sm.jpg, id=17, 351.3125pt x 264.99pt>
+
+[3] <sm.jpg, id=17, 351.3125pt x 264.99pt>
 File: sm.jpg Graphic file (type jpg)
  <use sm.jpg>
 Package pdftex.def Info: sm.jpg used on input line 47.
 (pdftex.def)             Requested size: 281.05037pt x 211.99228pt.
- [4 <F:/Internship/Task 7/sm.jpg>] <anr.jpg, id=21, 393.47pt x 203.76125pt>
+ [4 <F:/Internship/eYSIP_2015_RaspberryPi-Development-Board/7_Interfacing servo
+ motor/sm.jpg>]
+<anr.jpg, id=21, 393.47pt x 203.76125pt>
 File: anr.jpg Graphic file (type jpg)
  <use anr.jpg>
 Package pdftex.def Info: anr.jpg used on input line 63.
 (pdftex.def)             Requested size: 275.42711pt x 142.6319pt.
- [5 <F:/Internship/Task 7/anr.jpg>] <fc.png, id=25, 401.5pt x 322.20375pt>
+ [5 <F:/Internship/eYSIP_2015_RaspberryPi-Development-Board/7_Interfacing servo
+ motor/anr.jpg>]
+<fc.png, id=25, 401.5pt x 322.20375pt>
 File: fc.png Graphic file (type png)
  <use fc.png>
 Package pdftex.def Info: fc.png used on input line 73.
 (pdftex.def)             Requested size: 281.04808pt x 225.54108pt.
- [6 <F:/Internship/Task 7/fc.png>] <i.png, id=31, 346.896pt x 210.5028pt>
+ [6 <F:/Internship/eYSIP_2015_RaspberryPi-Development-Board/7_Interfacing servo
+ motor/fc.png>]
+<i.png, id=31, 346.896pt x 210.5028pt>
 File: i.png Graphic file (type png)
  <use i.png>
 Package pdftex.def Info: i.png used on input line 86.
@@ -167,7 +175,8 @@ Package pdftex.def Info: i.png used on input line 86.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
-("F:\Internship\Task 7\servo.py"
+("F:\Internship\eYSIP_2015_RaspberryPi-Development-Board\7_Interfacing servo mo
+tor\servo.py"
 Overfull \hbox (34.2041pt too wide) in paragraph at lines 1--2
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -202,7 +211,8 @@ Overfull \hbox (73.62451pt too wide) in paragraph at lines 17--18
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[7 <F:/Internship/Task 7/i.png>]
+[7 <F:/Internship/eYSIP_2015_RaspberryPi-Development-Board/7_Interfacing servo 
+motor/i.png>]
 Overfull \hbox (53.9143pt too wide) in paragraph at lines 24--25
 [][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -213,25 +223,27 @@ File: RaspberryPi2_pinout.jpg Graphic file (type jpg)
 <use RaspberryPi2_pinout.jpg>
 Package pdftex.def Info: RaspberryPi2_pinout.jpg used on input line 104.
 (pdftex.def)             Requested size: 342.08064pt x 249.33342pt.
- [9 <F:/Internship/Task 7/RaspberryPi2_pinout.jpg>] [10] ("F:\Internship\Task 7
-\T7.aux") ) 
+ [9 <F:/Internship/eYSIP_2015_RaspberryPi-Development-Board/7_Interfacing servo
+ motor/RaspberryPi2_pinout.jpg>] [10]
+("F:\Internship\eYSIP_2015_RaspberryPi-Development-Board\7_Interfacing servo mo
+tor\T7.aux") ) 
 Here is how much of TeX's memory you used:
  2653 strings out of 493921
- 36192 string characters out of 3147276
+ 36852 string characters out of 3147276
  123751 words of memory out of 3000000
  5950 multiletter control sequences out of 15000+200000
  9325 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,7n,43p,581b,1600s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmtt10.pfb>
-Output written on T7.pdf (10 pages, 383043 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmtt10.pfb>
+Output written on T7.pdf (10 pages, 384158 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
