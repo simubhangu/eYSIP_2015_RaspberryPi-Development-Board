@@ -1,5 +1,5 @@
 \contentsline {section}{\numberline {1}HDMI to TV/PC monitor}{3}
-\contentsline {section}{\numberline {2}HDMI to DVI/VGA to PC monitor}{4}
+\contentsline {section}{\numberline {2}HDMI to DVI/VGA port of PC Monitor/TV}{4}
 \contentsline {section}{\numberline {3}Network cable to Laptop}{5}
 \contentsline {section}{\numberline {4}USB Wifi Dongle to Router}{6}
-\contentsline {section}{\numberline {5}References}{6}
+\contentsline {section}{\numberline {5}References}{7}
