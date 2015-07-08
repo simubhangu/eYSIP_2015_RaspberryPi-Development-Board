@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 07/07/2015 17:03:40
+
+BeginCmp
+TimeStamp = /558D16CA;
+Reference = P1;
+ValeurCmp = CONN_20X2;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /558D17E6;
+Reference = P2;
+ValeurCmp = CONN_17;
+IdModule  = SIL-18;
+EndCmp
+
+BeginCmp
+TimeStamp = /559100AB;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /558D1AFA;
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = RV2;
+EndCmp
+
+BeginCmp
+TimeStamp = /558D16B6;
+Reference = U1;
+ValeurCmp = MCP23017;
+IdModule  = DIP-28__300_ELL;
+EndCmp
+
+EndListe

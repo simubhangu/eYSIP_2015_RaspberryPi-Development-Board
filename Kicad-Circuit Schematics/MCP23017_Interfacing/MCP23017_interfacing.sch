@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 26/06/2015 16:15:03
+EESchema Schematic File Version 2  date 07/07/2015 16:55:25
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "26 jun 2015"
+Date "7 jul 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,8 +45,30 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 6200 2150 1    60   ~ 0
+Text Label 3550 2700 2    60   ~ 0
 VCC
+Wire Wire Line
+	3650 2700 3450 2700
+Connection ~ 5550 1850
+Wire Wire Line
+	5550 1750 5550 1850
+Wire Wire Line
+	6250 1650 6200 1650
+Wire Wire Line
+	6200 1650 6200 2200
+Wire Wire Line
+	7900 2900 7400 2900
+Connection ~ 7400 3250
+Wire Wire Line
+	7400 2900 7400 3250
+Wire Wire Line
+	7500 3150 7500 3250
+Wire Wire Line
+	8000 2500 8000 2750
+Wire Wire Line
+	8000 2750 7150 2750
+Wire Wire Line
+	8000 1600 8000 1450
 Wire Wire Line
 	5200 2300 5200 2650
 Wire Wire Line
@@ -60,8 +82,6 @@ Connection ~ 7400 3350
 Wire Wire Line
 	8100 3350 8550 3350
 Wire Wire Line
-	6200 2200 6200 2100
-Wire Wire Line
 	7600 2450 7600 2650
 Wire Wire Line
 	7600 2650 7150 2650
@@ -69,7 +89,6 @@ Wire Wire Line
 	6200 4900 6200 5050
 Wire Wire Line
 	5100 2500 4450 2500
-Connection ~ 3900 3250
 Wire Wire Line
 	5250 4150 5250 4200
 Wire Wire Line
@@ -98,13 +117,107 @@ Wire Wire Line
 	3650 1900 3500 1900
 Wire Wire Line
 	3500 1900 3500 1700
+Wire Wire Line
+	7500 3250 7150 3250
+Wire Wire Line
+	8100 3150 8550 3150
+Wire Wire Line
+	8400 2900 8550 2900
+Wire Wire Line
+	5100 1850 6050 1850
+Connection ~ 5100 1850
+Wire Wire Line
+	6050 1850 6050 1650
+Wire Wire Line
+	6200 1900 6400 1900
+Wire Wire Line
+	6400 1900 6400 1800
+Connection ~ 6200 1900
+Wire Wire Line
+	4450 2100 4600 2100
+Text Label 4550 2100 2    60   ~ 0
+GND
+NoConn ~ 4450 2200
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 559B7CE2
+P 5550 1750
+F 0 "#FLG01" H 5550 2020 30  0001 C CNN
+F 1 "PWR_FLAG" H 5550 1980 30  0000 C CNN
+	1    5550 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 559B7CA6
+P 6400 1800
+F 0 "#FLG02" H 6400 2070 30  0001 C CNN
+F 1 "PWR_FLAG" H 6400 2030 30  0000 C CNN
+	1    6400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 559B7C4D
+P 6150 1300
+F 0 "P2" V 6100 1300 40  0000 C CNN
+F 1 "CONN_2" V 6200 1300 40  0000 C CNN
+	1    6150 1300
+	0    -1   -1   0   
+$EndComp
+Text Label 5250 4200 2    60   ~ 0
+SCL
+Text Label 8500 2900 2    60   ~ 0
+GND
+$Comp
+L R R2
+U 1 1 559B7ADF
+P 8150 2900
+F 0 "R2" V 8230 2900 50  0000 C CNN
+F 1 "10K" V 8150 2900 50  0000 C CNN
+	1    8150 2900
+	0    1    1    0   
+$EndComp
+Text Label 8400 3150 2    60   ~ 0
+VCC
+$Comp
+L SW_PUSH SW2
+U 1 1 559B7A7E
+P 7800 3150
+F 0 "SW2" H 7950 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 3070 50  0000 C CNN
+	1    7800 3150
+	1    0    0    -1  
+$EndComp
+Text Label 8000 1550 0    60   ~ 0
+GND
+$Comp
+L LED LED2
+U 1 1 559B79EB
+P 8000 1800
+F 0 "LED2" H 8000 1900 50  0000 C CNN
+F 1 "LED" H 8000 1700 50  0000 C CNN
+	1    8000 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 559B79E6
+P 8000 2250
+F 0 "R1" V 8080 2250 50  0000 C CNN
+F 1 "330" V 8000 2250 50  0000 C CNN
+	1    8000 2250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7150 2850
+NoConn ~ 7150 2950
+Text Label 6200 2150 1    60   ~ 0
+VCC
 Text Label 7600 1550 0    60   ~ 0
 GND
 NoConn ~ 7150 3050
 NoConn ~ 7150 3150
 NoConn ~ 4450 1900
-NoConn ~ 4450 2100
-NoConn ~ 4450 2200
 NoConn ~ 4450 2300
 NoConn ~ 4450 2400
 NoConn ~ 4450 2600
@@ -131,7 +244,6 @@ NoConn ~ 3650 3100
 NoConn ~ 3650 3000
 NoConn ~ 3650 2900
 NoConn ~ 3650 2800
-NoConn ~ 3650 2700
 NoConn ~ 3650 2600
 NoConn ~ 3650 2600
 NoConn ~ 3650 2500
@@ -155,8 +267,6 @@ Text Label 5100 1900 1    60   ~ 0
 GND
 Text Label 6200 5050 1    60   ~ 0
 GND
-Text Label 5250 4200 2    60   ~ 0
-SCL
 Text Label 5200 4050 2    60   ~ 0
 SDA
 $Comp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 26/06/2015 16:07:03
+EESchema Schematic File Version 2  date 07/07/2015 21:11:46
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title "Motor driver"
-Date "26 jun 2015"
+Date "7 jul 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -46,8 +46,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2650 4800 0    60   ~ 0
+Text Label 2600 3300 0    60   ~ 0
 GND
+Wire Wire Line
+	2500 3300 2700 3300
+Wire Wire Line
+	1700 3800 1450 3800
+Connection ~ 1300 3200
+Wire Wire Line
+	1300 3200 1300 3550
+Wire Wire Line
+	1300 3550 1050 3550
 Wire Wire Line
 	2500 4800 2750 4800
 Wire Wire Line
@@ -106,8 +115,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 4200 8100 4200
 Wire Wire Line
-	1700 3400 1400 3400
-Wire Wire Line
 	8300 4400 8000 4400
 Wire Wire Line
 	6800 4200 6500 4200
@@ -146,7 +153,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3200 6600 2750
 Wire Wire Line
-	2500 3400 2700 3400
+	2500 4600 2700 4600
 Wire Wire Line
 	8200 3200 8000 3200
 Wire Wire Line
@@ -189,6 +196,69 @@ Wire Wire Line
 	6800 3000 6700 3000
 Wire Wire Line
 	6700 3000 6700 2750
+Wire Wire Line
+	6200 4600 6650 4600
+Wire Wire Line
+	6650 4600 6650 4400
+Connection ~ 6650 4400
+Wire Wire Line
+	1450 2800 1350 2800
+Wire Wire Line
+	1350 2800 1350 3100
+Connection ~ 1350 3100
+Wire Wire Line
+	2500 4700 2700 4700
+Wire Wire Line
+	1700 3100 1600 3100
+Wire Wire Line
+	1600 3100 1600 2950
+Text Label 1600 3050 0    60   ~ 0
+GND
+NoConn ~ 2500 3500
+NoConn ~ 2500 3400
+$Comp
+L CONN_20X2 P1
+U 1 1 558BDC67
+P 2100 3850
+F 0 "P1" H 2100 4900 60  0000 C CNN
+F 1 "CONN_20X2" V 2100 3850 50  0000 C CNN
+	1    2100 3850
+	-1   0    0    -1  
+$EndComp
+Text Label 1500 3800 0    60   ~ 0
+GND
+Text Label 2600 4700 0    60   ~ 0
+EN2
+NoConn ~ 1700 3400
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5592D22B
+P 1050 3550
+F 0 "#FLG01" H 1050 3820 30  0001 C CNN
+F 1 "PWR_FLAG" H 1050 3780 30  0000 C CNN
+	1    1050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 5592D222
+P 1450 2800
+F 0 "#FLG02" H 1450 3070 30  0001 C CNN
+F 1 "PWR_FLAG" H 1450 3030 30  0000 C CNN
+	1    1450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 5592D1AA
+P 6200 4600
+F 0 "#FLG03" H 6200 4870 30  0001 C CNN
+F 1 "PWR_FLAG" H 6200 4830 30  0000 C CNN
+	1    6200 4600
+	1    0    0    -1  
+$EndComp
+Text Label 2650 4800 0    60   ~ 0
+GND
 Text Label 6700 2800 0    60   ~ 0
 EN1
 $Comp
@@ -203,8 +273,6 @@ F 2 "stepper drivers-DIL16" H 7400 3850 50  0001 C CNN
 $EndComp
 NoConn ~ 2500 2900
 Text Label 8200 4400 0    60   ~ 0
-EN2
-Text Label 1550 3400 0    60   ~ 0
 EN2
 Text Label 5300 3050 0    60   ~ 0
 IN 4
@@ -242,7 +310,7 @@ Text Label 8300 3800 0    60   ~ 0
 GND
 Text Label 8050 3000 0    60   ~ 0
 VCC
-Text Label 2600 3400 0    60   ~ 0
+Text Label 2600 4600 0    60   ~ 0
 EN1
 Text Label 2600 3100 0    60   ~ 0
 SCL
@@ -288,11 +356,8 @@ Text Label 5950 3200 2    60   ~ 0
 OUT 1
 NoConn ~ 1700 3300
 NoConn ~ 1700 3200
-NoConn ~ 1700 3100
 NoConn ~ 1700 3000
 NoConn ~ 2500 3200
-NoConn ~ 2500 3300
-NoConn ~ 2500 3500
 NoConn ~ 2500 3600
 NoConn ~ 2500 3700
 NoConn ~ 2500 3800
@@ -303,8 +368,6 @@ NoConn ~ 2500 4200
 NoConn ~ 2500 4300
 NoConn ~ 2500 4400
 NoConn ~ 2500 4500
-NoConn ~ 2500 4600
-NoConn ~ 2500 4700
 NoConn ~ 1700 4800
 NoConn ~ 1700 4700
 NoConn ~ 1700 4600
@@ -315,7 +378,6 @@ NoConn ~ 1700 4200
 NoConn ~ 1700 4100
 NoConn ~ 1700 4000
 NoConn ~ 1700 3900
-NoConn ~ 1700 3800
 NoConn ~ 1700 3700
 NoConn ~ 1700 3500
 $Comp
@@ -342,46 +404,46 @@ NoConn ~ 5050 3800
 NoConn ~ 5050 3700
 NoConn ~ 5050 3600
 $Comp
-L +12V #PWR01
+L +12V #PWR04
 U 1 1 558CEE64
 P 6450 4400
-F 0 "#PWR01" H 6450 4350 20  0001 C CNN
+F 0 "#PWR04" H 6450 4350 20  0001 C CNN
 F 1 "+12V" H 6450 4500 30  0000 C CNN
 	1    6450 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L C 10u4
 U 1 1 558CEB67
 P 8600 4000
-F 0 "C4" H 8650 4100 50  0000 L CNN
+F 0 "10u4" H 8650 4100 50  0000 L CNN
 F 1 "C" H 8650 3900 50  0000 L CNN
 	1    8600 4000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C3
+L C 10u3
 U 1 1 558CEB52
 P 8600 3400
-F 0 "C3" H 8650 3500 50  0000 L CNN
+F 0 "10u3" H 8650 3500 50  0000 L CNN
 F 1 "C" H 8650 3300 50  0000 L CNN
 	1    8600 3400
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C2
+L C 10u2
 U 1 1 558CEABB
 P 6250 4000
-F 0 "C2" H 6300 4100 50  0000 L CNN
+F 0 "10u2" H 6300 4100 50  0000 L CNN
 F 1 "C" H 6300 3900 50  0000 L CNN
 	1    6250 4000
 	0    1    1    0   
 $EndComp
 $Comp
-L C C1
+L C 10u1
 U 1 1 558CEA94
 P 6200 3400
-F 0 "C1" H 6250 3500 50  0000 L CNN
+F 0 "10u1" H 6250 3500 50  0000 L CNN
 F 1 "C" H 6250 3300 50  0000 L CNN
 	1    6200 3400
 	0    1    1    0   
@@ -396,14 +458,5 @@ F 2 "MODULE" H 3600 2550 50  0001 C CNN
 F 3 "DOCUMENTATION" H 4100 3600 50  0001 C CNN
 	1    4100 3650
 	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_20X2 P1
-U 1 1 558BDC67
-P 2100 3850
-F 0 "P1" H 2100 4900 60  0000 C CNN
-F 1 "CONN_20X2" V 2100 3850 50  0000 C CNN
-	1    2100 3850
-	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

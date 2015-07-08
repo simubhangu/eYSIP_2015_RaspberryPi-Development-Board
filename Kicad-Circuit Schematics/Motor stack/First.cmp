@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 30/06/2015 23:31:11
+
+BeginCmp
+TimeStamp = /558CEA94;
+Reference = 10u1;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /558CEABB;
+Reference = 10u2;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /558CEB52;
+Reference = 10u3;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /558CEB67;
+Reference = 10u4;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /558BDC95;
+Reference = IC1;
+ValeurCmp = L293D;
+IdModule  = DIP-16__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /558CF32B;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = CONN3_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /558BDC67;
+Reference = P1;
+ValeurCmp = CONN_20X2;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /558CF531;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /558CF552;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /558BDC84;
+Reference = U1;
+ValeurCmp = MCP23017;
+IdModule  = DIP-28__300_ELL;
+EndCmp
+
+EndListe

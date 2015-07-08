@@ -1,101 +1,26 @@
-# EESchema Netlist Version 1.1 created  26/06/2015 12:20:47
+# EESchema Netlist Version 1.1 created  07/07/2015 20:28:19
 (
- ( /558CF552 $noname  P3 CONN_2 {Lib=CONN_2}
-  (    1 N-000008 )
-  (    2 N-000064 )
- )
- ( /558CF531 $noname  P2 CONN_2 {Lib=CONN_2}
-  (    1 N-000065 )
-  (    2 N-000003 )
- )
- ( /558CF32B $noname  K1 CONN_3 {Lib=CONN_3}
-  (    1 N-000055 )
-  (    2 N-000056 )
-  (    3 N-000026 )
- )
- ( /558CEB67 $noname  C4 C {Lib=C}
-  (    1 N-000008 )
-  (    2 N-000055 )
- )
- ( /558CEB52 $noname  C3 C {Lib=C}
-  (    1 N-000064 )
-  (    2 N-000055 )
- )
- ( /558CEABB $noname  C2 C {Lib=C}
-  (    1 N-000003 )
-  (    2 N-000055 )
- )
- ( /558CEA94 $noname  C1 C {Lib=C}
-  (    1 N-000065 )
-  (    2 N-000055 )
- )
- ( /558BDC95 stepper_drivers-DIL16  IC1 L293D {Lib=L293D}
-  (    1 N-000002 )
-  (    2 N-000052 )
-  (    3 N-000065 )
-  (    4 N-000055 )
-  (    5 N-000055 )
-  (    6 N-000003 )
-  (    7 N-000004 )
-  (    8 +12V )
-  (    9 N-000006 )
-  (   10 N-000007 )
-  (   11 N-000008 )
-  (   12 N-000055 )
-  (   13 N-000055 )
-  (   14 N-000064 )
-  (   15 N-000054 )
-  (   16 N-000056 )
- )
- ( /558BDC84 MODULE  U1 MCP23017 {Lib=MCP23017}
-  (    1 ? )
-  (    2 ? )
-  (    3 ? )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 N-000051 )
-  (   10 GND )
-  (   12 N-000058 )
-  (   13 N-000053 )
-  (   15 N-000055 )
-  (   16 N-000055 )
-  (   17 N-000055 )
-  (   18 N-000051 )
-  (   19 ? )
-  (   20 ? )
-  (   21 N-000052 )
-  (   22 N-000004 )
-  (   23 N-000007 )
-  (   24 N-000054 )
-  (   25 ? )
-  (   26 ? )
-  (   27 ? )
-  (   28 ? )
- )
  ( /558BDC67 $noname  P1 CONN_20X2 {Lib=CONN_20X2}
-  (    1 N-000051 )
-  (    2 N-000056 )
-  (    3 N-000053 )
+  (    1 ? )
+  (    2 /VCC )
+  (    3 /SDA )
   (    4 ? )
-  (    5 N-000058 )
-  (    6 ? )
+  (    5 /SCL )
+  (    6 /GND )
   (    7 ? )
   (    8 ? )
-  (    9 ? )
+  (    9 /GND )
   (   10 ? )
-  (   11 N-000002 )
-  (   12 N-000006 )
+  (   11 ? )
+  (   12 ? )
   (   13 ? )
   (   14 ? )
   (   15 ? )
-  (   16 N-000026 )
+  (   16 N-000056 )
   (   17 ? )
   (   18 ? )
   (   19 ? )
-  (   20 ? )
+  (   20 /GND )
   (   21 ? )
   (   22 ? )
   (   23 ? )
@@ -110,32 +35,107 @@
   (   32 ? )
   (   33 ? )
   (   34 ? )
-  (   35 ? )
+  (   35 /EN1 )
   (   36 ? )
-  (   37 ? )
+  (   37 /EN2 )
   (   38 ? )
-  (   39 N-000055 )
+  (   39 /GND )
   (   40 ? )
+ )
+ ( /558BDC95 stepper_drivers-DIL16  IC1 L293D {Lib=L293D}
+  (    1 /EN1 )
+  (    2 /IN1 )
+  (    3 /OUT_1 )
+  (    4 /GND )
+  (    5 /GND )
+  (    6 /OUT_2 )
+  (    7 /IN2 )
+  (    8 +12V )
+  (    9 /EN2 )
+  (   10 /IN_3 )
+  (   11 /OUT_3 )
+  (   12 /GND )
+  (   13 /GND )
+  (   14 /OUT_4 )
+  (   15 /IN_4 )
+  (   16 /VCC )
+ )
+ ( /558CF552 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 /OUT_3 )
+  (    2 /OUT_4 )
+ )
+ ( /558CF531 $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 /OUT_1 )
+  (    2 /OUT_2 )
+ )
+ ( /558CF32B $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 /GND )
+  (    2 /VCC )
+  (    3 N-000056 )
+ )
+ ( /558CEB67 $noname  10u4 C {Lib=C}
+  (    1 /OUT_3 )
+  (    2 /GND )
+ )
+ ( /558CEB52 $noname  10u3 C {Lib=C}
+  (    1 /OUT_4 )
+  (    2 /GND )
+ )
+ ( /558CEABB $noname  10u2 C {Lib=C}
+  (    1 /OUT_2 )
+  (    2 /GND )
+ )
+ ( /558CEA94 $noname  10u1 C {Lib=C}
+  (    1 /OUT_1 )
+  (    2 /GND )
+ )
+ ( /558BDC84 MODULE  U1 MCP23017 {Lib=MCP23017}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 /VCC )
+  (   10 /GND )
+  (   12 /SCL )
+  (   13 /SDA )
+  (   15 /GND )
+  (   16 /GND )
+  (   17 /GND )
+  (   18 /VCC )
+  (   19 ? )
+  (   20 ? )
+  (   21 /IN1 )
+  (   22 /IN2 )
+  (   23 /IN_3 )
+  (   24 /IN_4 )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
  )
 )
 *
 { Allowed footprints by component:
-$component C4
+$component 10u4
  SM*
  C?
  C1-1
 $endlist
-$component C3
+$component 10u3
  SM*
  C?
  C1-1
 $endlist
-$component C2
+$component 10u2
  SM*
  C?
  C1-1
 $endlist
-$component C1
+$component 10u1
  SM*
  C?
  C1-1
@@ -143,70 +143,72 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 2 "" ""
- P1 11
+Net 1 "/EN1" "EN1"
+ P1 35
  IC1 1
-Net 3 "" ""
- C2 1
- P2 2
- IC1 6
-Net 4 "" ""
- IC1 7
- U1 22
-Net 6 "" ""
- P1 12
- IC1 9
-Net 7 "" ""
- IC1 10
- U1 23
-Net 8 "" ""
- C4 1
- P3 1
- IC1 11
-Net 26 "" ""
- K1 3
- P1 16
-Net 51 "" ""
- P1 1
- U1 18
- U1 9
-Net 52 "" ""
- IC1 2
- U1 21
-Net 53 "" ""
+Net 2 "/SCL" "SCL"
+ U1 12
+ P1 5
+Net 3 "/SDA" "SDA"
  U1 13
  P1 3
-Net 54 "" ""
- IC1 15
- U1 24
-Net 55 "" ""
- C1 2
- C2 2
- C3 2
- C4 2
- IC1 4
- IC1 5
- U1 17
- U1 16
- U1 15
- IC1 12
- P1 39
- IC1 13
- K1 1
-Net 56 "" ""
- K1 2
- P1 2
- IC1 16
-Net 58 "" ""
- P1 5
- U1 12
-Net 64 "" ""
- C3 1
+Net 15 "/OUT 2" "OUT 2"
+ 10u2 1
+ IC1 6
+ P2 2
+Net 16 "/OUT 1" "OUT 1"
+ 10u1 1
+ P2 1
+ IC1 3
+Net 17 "/OUT 4" "OUT 4"
  P3 2
  IC1 14
-Net 65 "" ""
- IC1 3
- P2 1
- C1 1
+ 10u3 1
+Net 18 "/GND" "GND"
+ P1 6
+ P1 9
+ P1 20
+ P1 39
+ 10u4 2
+ 10u3 2
+ 10u2 2
+ U1 17
+ 10u1 2
+ U1 16
+ U1 15
+ U1 10
+ K1 1
+ IC1 4
+ IC1 5
+ IC1 12
+ IC1 13
+Net 19 "/IN1" "IN1"
+ U1 21
+ IC1 2
+Net 20 "/IN2" "IN2"
+ U1 22
+ IC1 7
+Net 21 "/IN 3" "IN 3"
+ U1 23
+ IC1 10
+Net 22 "/EN2" "EN2"
+ IC1 9
+ P1 37
+Net 24 "/VCC" "VCC"
+ U1 9
+ IC1 16
+ P1 2
+ K1 2
+ U1 18
+Net 25 "/IN 4" "IN 4"
+ U1 24
+ IC1 15
+Net 34 "/OUT 3" "OUT 3"
+ IC1 11
+ P3 1
+ 10u4 1
+Net 56 "" ""
+ K1 3
+ P1 16
 }
 #End
